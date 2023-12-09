@@ -61,7 +61,7 @@ Class UM_Submitted_Date_Format {
                         'id'            => $email_key . '_date_format',
                         'type'          => 'textarea',
                         'size'          => 'medium',
-                        'label'         => __( 'Submitted Date Format - meta_key:Date/Time formats', 'ultimate-member' ),
+                        'label'         => __( 'Submitted Date Format - meta_key:PHP Date/Time formats', 'ultimate-member' ),
                         'tooltip'       => __( 'Formatting the content of {submitted_registration} with: meta_key and PHP date format separated with colon and one format per line. Example birth_date : F j, Y', 'ultimate-member' ),
                         'conditional'   => array( $email_key . '_on', '=', 1 ),
                     );
