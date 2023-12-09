@@ -7,6 +7,10 @@ Extension to Ultimate Member for custom formatting of dates submitted during reg
 ## WP Settings -> General -> Date Format/Time Format
 1. <code>user_registered</code> and <code>use_gdpr_agreement</code> meta_keys are excluded from formattng by this plugin. UM is using the WP date/time settings.
 
+## PHP Date Formats
+1. https://wordpress.org/documentation/article/customize-date-and-time-format/
+2. https://www.php.net/manual/en/datetime.format.php
+
 ## Translations or Text changes
 1. Use the "Say What?" plugin with text domain ultimate-member
 2. https://wordpress.org/plugins/say-what/
