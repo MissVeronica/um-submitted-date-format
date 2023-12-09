@@ -4,6 +4,9 @@ Extension to Ultimate Member for custom formatting of dates submitted during reg
 ## UM Settings -> Email ->  New User Notification
 1. Submitted Date Format - meta_key:Date/Time formats - Formatting the content of <code>{submitted_registration}</code> with: meta_key and PHP date format separated with colon and one format per line. Example <code>birth_date : F j, Y</code>
 
+## WP Settings -> General -> Date Format/Time Format
+1. <code>user_registered</code> and <code>use_gdpr_agreement</code> meta_keys are excluded from formattng by this plugin. UM is using the WP date/time settings.
+
 ## Translations or Text changes
 1. Use the "Say What?" plugin with text domain ultimate-member
 2. https://wordpress.org/plugins/say-what/
